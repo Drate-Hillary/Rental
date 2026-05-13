@@ -14,7 +14,7 @@ export default function Onboarding() {
   const handleLogin = () => {
     setLoading(true);
     setTimeout(() => {
-      router.push("/");
+      router.push("/Home");
       setLoading(false);
     }, 2000);
   };
