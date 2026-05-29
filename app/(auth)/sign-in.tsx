@@ -86,7 +86,7 @@ export default function SignIn() {
   if (signIn.status === "needs_client_trust") {
     return (
       <View className="justify-center flex-1 px-6 py-12">
-        <TouchableOpacity className="justify-center items-center py-4 bg-black/10 rounded-full w-12 h-12 mb-3">
+        <TouchableOpacity className="items-center justify-center w-12 h-12 py-4 mb-3 rounded-full bg-black/10">
           <Ionicons name="arrow-back" size={18} color="black" />
         </TouchableOpacity>
         <Image

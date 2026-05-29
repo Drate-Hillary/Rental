@@ -88,11 +88,17 @@ export default function HomeScreen() {
 
             {/* Search bar */}
             <TouchableOpacity>
-              <View className="flex-row items-center px-4 py-2 mx-5 mb-4 bg-gray-100 border border-gray-500 rounded-lg">
-                <Ionicons name="search" size={20} className="text-gray-500" />
-                <Text className="text-gray-500 ms-3">
-                  Search for properties...
-                </Text>
+              <View className="flex-row items-center px-4 py-2 mx-5 mb-4 bg-white border border-gray-300 rounded-lg">
+                <View className="flex-row items-center flex-1">
+                  <Ionicons name="search" size={20} className="text-gray-500" />
+                  <Text className="text-gray-500 ms-3">
+                    Search for properties...
+                  </Text>
+                </View>
+
+                <TouchableOpacity className="bg-gray-200 h-8 w-8 rounded-lg items-center justify-center">
+                  <Ionicons name="options-outline" color="black" size={16} />
+                </TouchableOpacity>
               </View>
             </TouchableOpacity>
 

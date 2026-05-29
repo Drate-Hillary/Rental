@@ -66,7 +66,7 @@ export default function PropertyCard({
 
         <View className="flex-row items-center gap-2 justify-between">
           <View className="flex-row items-center gap-1">
-            <Ionicons name="bed-outline" />
+            <Ionicons name="bed-outline" size={14} />
             <Text className="text-sm text-gray-600">
               {property.bedrooms} beds
             </Text>
