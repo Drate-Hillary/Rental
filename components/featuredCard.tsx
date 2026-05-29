@@ -20,7 +20,7 @@ export default function FeaturedCard({ property }: { property: Property }) {
         elevation: 5,
         opacity: property.is_sold ? 0.5 : 1,
       }}
-      onPress={() => router.push(`/root/property/${property.id}`)}
+      onPress={() => router.push(`/(root)/property/${property.id}`)}
     >
       <Image
         source={{ uri: property.images[0] }}
